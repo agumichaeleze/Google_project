@@ -39,9 +39,16 @@ p{
     border-radius: 30px;
     position: relative;
 }
-.content-icon{
-    width: 20px;
-    height: 20px;
+.search-icon{
+    outline: none;
+}
+.content{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 25px;
+    bottom: 12px;
+    color: #808080;
 }
 .sea{
     width: 20px;
@@ -62,14 +69,6 @@ input{
 }
 input:hover{
     cursor: pointer;
-}
-.content{
-    display: flex;
-    gap: 20px;
-    position: absolute;
-    right: 25px;
-    bottom: 12px;
-    color: #808080;
 }
 .content:hover{
     cursor: pointer;
@@ -114,9 +113,6 @@ span{
 footer{
     margin-top: 143px;
     background-color: #f5f2f2;
-}
-.searc{
-    outline: none;
 }
 .green img{
     width: 10px;
